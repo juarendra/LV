@@ -1,0 +1,82 @@
+[
+{
+  "profile": {
+    "name": "ABB_CMS7000",
+    "device_type": "power_meter",
+    "manufacturer": "ABB",
+    "part_number" : "CMS700",
+    "topic" : "lv_abb_cms700"
+    },
+  "protocol_setting" : {
+    "protocol": "Modbus RTU",
+    "address":6,
+    "port": "/dev/ttyUSB0",
+    "baudrate": 9600,
+    "parity": "NONE",
+    "bytesize": 8,
+    "stop_bit": 1,
+    "timeout": 1,
+    "endianness" : "Big Endian"
+  }
+},
+{
+  "profile": {
+    "name": "ABB_ATS",
+    "device_type": "switch",
+    "manufacturer": "ABB",
+    "part_number" : "ATS022",
+    "topic" : "lv_abb_ats022"
+    },
+  "protocol_setting" : {
+    "protocol": "Modbus RTU",
+    "address":7,
+    "port": "/dev/ttyUSB0",
+    "baudrate": 9600,
+    "parity": "NONE",
+    "bytesize": 8,
+    "stop_bit": 1,
+    "timeout": 1,
+    "endianness" : "Big Endian"
+  }
+},
+{
+  "profile": {
+    "name": "ABB_RVT",
+    "device_type": "pfc",
+    "manufacturer": "ABB",
+    "part_number" : "RVT",
+    "topic" : "lv_abb_rvt"
+    },
+  "protocol_setting" : {
+    "protocol": "Modbus RTU",
+    "address":4,
+    "port": "/dev/ttyUSB0",
+    "baudrate": 9600,
+    "parity": "NONE",
+    "bytesize": 8,
+    "stop_bit": 1,
+    "timeout": 1,
+    "endianness" : "Big Endian"
+  }
+},
+{
+  "profile": {
+    "name": "Schneider_PM5300",
+    "device_type": "power_meter",
+    "manufacturer": "Schneider",
+    "part_number" : "PM5100_PM5300",
+    "topic" : "lv_schneider_pm5300"
+    },
+  "protocol_setting" : {
+    "protocol": "Modbus RTU",
+    "address":9,
+    "port": "/dev/ttyUSB0",
+    "baudrate": 9600,
+    "parity": "NONE",
+    "bytesize": 8,
+    "stop_bit": 1,
+    "timeout": 1,
+    "endianness" : "Big Endian"
+  }
+}
+]

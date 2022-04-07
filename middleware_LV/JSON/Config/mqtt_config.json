@@ -1,0 +1,16 @@
+{
+  "enable": true,
+  "pub_interval": 10,
+  "broker_address": "smartiot-mqtt.denish-faldu.in",
+  "broker_port": 1883,
+  "username": "mqtt-user",
+  "password": "Mha382QfnN8LD4RJ",
+  "qos": 1,
+  "retain": true,
+  "pub_topic": [""],
+  "sub_topic_system": "system",
+  "sub_topic_modbusRTU": "test",
+  "sub_topic_modbusTCP": "test1",
+  "sub_topic_snmp": "test2"
+  
+}
